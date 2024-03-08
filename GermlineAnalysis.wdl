@@ -26,7 +26,6 @@ task GermlineAnalysis {
 
     runtime {
         docker: "nvcr.io/nvidia/clara/clara-parabricks:4.2.1-1"
-        gpus: "all"
     }
 }
 
