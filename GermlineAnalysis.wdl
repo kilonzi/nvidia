@@ -1,5 +1,3 @@
-version 1.0
-
 task GermlineAnalysis {
     input {
         File ref
@@ -25,7 +23,7 @@ task GermlineAnalysis {
     }
 
     runtime {
-        docker: "nvcr.io/nvidia/clara/clara-parabricks:4.2.1-1"
+        docker: "johnkilonzi/nvidia-clara-parabricks:latest"
     }
 }
 
